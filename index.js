@@ -20,7 +20,7 @@ function Fight(e){
         document.getElementById("minus2").style.animation="boom 1.4s steps(2)"
         setTimeout(shake1,1500)
 
-        if(count1==10){
+        if(count1==3){
             document.getElementById("dead1").style.display="block";
             document.getElementById("character2").style.display="none";
             document.getElementById("boom2").style.display="none";
